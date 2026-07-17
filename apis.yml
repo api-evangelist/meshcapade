@@ -1,0 +1,28 @@
+aid: meshcapade
+name: Meshcapade
+description: 'Meshcapade is a company surfaced as a portfolio company of hv-capital, matrix-partners and
+  added to the API Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile
+  is a lead awaiting the enrichment pipeline.'
+url: https://raw.githubusercontent.com/api-evangelist/meshcapade/refs/heads/main/apis.yml
+x-type: company
+x-source: vc-portfolio
+x-backed-by:
+- hv-capital
+- matrix-partners
+x-tier: stub
+x-tier-reason: portfolio-lead
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+- Company
+- Ai Enterprise Software
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://meshcapade.com
