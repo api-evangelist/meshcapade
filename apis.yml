@@ -1,9 +1,28 @@
 aid: meshcapade
 name: Meshcapade
-description: 'Meshcapade is a company surfaced as a portfolio company of hv-capital, matrix-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Meshcapade builds digital humans - technology that turns images, video, motion
+  capture, body measurements or text prompts into anatomically accurate,
+  animation-ready 3D avatars. Its platform is built on the SMPL, SMPL-X and SUPR
+  parametric body-model family that originated at the Max Planck Institute for
+  Intelligent Systems in Tuebingen, Germany. Meshcapade offers a hosted
+  avatar-creation platform at me.meshcapade.com and a REST API for programmatic
+  avatar generation, plus open-source body-model libraries and integrations for
+  Blender, Maya and Unreal Engine. Customers span fashion, robotics, gaming and
+  animation, fitness, and scientific research.
 url: https://raw.githubusercontent.com/api-evangelist/meshcapade/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://meshcapade.com/images/meta/main.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,11 +32,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Enterprise Software
-apis: []
+- Digital Humans
+- 3D Avatars
+- Body Modeling
+- SMPL
+- Computer Vision
+- Animation
+- Artificial Intelligence
+apis:
+- name: Meshcapade API
+  description: >-
+    REST API for programmatic creation of animation-ready 3D avatars from
+    images, video, measurements and text, built on the SMPL body-model family.
+  humanURL: https://meshcapade.com/docs/api/
+  baseURL: https://api.meshcapade.com
+  tags:
+  - Digital Humans
+  - 3D Avatars
+  - Avatar Generation
+  properties:
+  - type: Documentation
+    url: https://meshcapade.com/docs/api/
+  - type: APIReference
+    url: https://meshcapade.com/docs/api/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -26,3 +67,34 @@ maintainers:
 common:
 - type: Website
   url: https://meshcapade.com
+- type: DeveloperPortal
+  url: https://me.meshcapade.com
+- type: Documentation
+  url: https://meshcapade.com/docs/api/
+- type: APIReference
+  url: https://meshcapade.com/docs/api/
+- type: GitHubOrganization
+  url: https://github.com/Meshcapade
+- type: Blog
+  url: https://medium.com/meshcapade/
+- type: Support
+  url: http://meshcapade-25322263.hs-sites-eu1.com/en/meshcapade-help
+- type: SignUp
+  url: https://me.meshcapade.com
+- type: PrivacyPolicy
+  url: https://meshcapade.com/privacy-policy
+- type: TermsOfService
+  url: https://me.meshcapade.com/terms-of-service
+- type: Packages
+  url: packages/meshcapade-packages.yml
+- type: SDKs
+  url: packages/meshcapade-packages.yml
+- type: LLMsTxt
+  url: llms/meshcapade-llms.txt
+- type: DomainSecurity
+  url: security/meshcapade-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
