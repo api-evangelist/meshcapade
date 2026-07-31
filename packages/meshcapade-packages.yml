@@ -1,0 +1,55 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/Meshcapade
+description: >-
+  First-party Meshcapade client libraries and tooling for the SMPL / SMPL-X /
+  SUPR body-model ecosystem. Verified against the public GitHub organization
+  (https://github.com/Meshcapade) and the PyPI registry. smplcodec is published
+  on PyPI (pip install smplcodec); the Rust, Blender, Maya and Unreal packages
+  are distributed as source from the Meshcapade GitHub organization. These are
+  body-model / .smpl file libraries and DCC integrations, distinct from the
+  hosted Meshcapade avatar REST API.
+packages:
+  - language: python
+    registry: pypi
+    name: smplcodec
+    url: https://pypi.org/project/smplcodec/
+    source: https://github.com/Meshcapade/smplcodec
+    install: pip install smplcodec
+    description: A library to read and write .smpl avatar files.
+    official: true
+  - language: rust
+    registry: github
+    name: smpl-rs
+    url: https://github.com/Meshcapade/smpl-rs
+    source: https://github.com/Meshcapade/smpl-rs
+    description: A suite of SMPL functionality built in Rust.
+    official: true
+  - language: python
+    registry: github
+    name: SMPL_blender_addon
+    url: https://github.com/Meshcapade/SMPL_blender_addon
+    source: https://github.com/Meshcapade/SMPL_blender_addon
+    description: Blender add-on to edit, reshape and animate SMPL-H, SMPL-X and SUPR bodies.
+    official: true
+  - language: python
+    registry: github
+    name: SMPL_maya_plugin
+    url: https://github.com/Meshcapade/SMPL_maya_plugin
+    source: https://github.com/Meshcapade/SMPL_maya_plugin
+    description: Maya plugin for SMPL model integration.
+    official: true
+  - language: cpp
+    registry: github
+    name: mc-unreal
+    url: https://github.com/Meshcapade/mc-unreal
+    source: https://github.com/Meshcapade/mc-unreal
+    description: Meshcapade support for Unreal Editor 5.3 onward.
+    official: true
+  - language: rust
+    registry: github
+    name: gloss
+    url: https://github.com/Meshcapade/gloss
+    source: https://github.com/Meshcapade/gloss
+    description: A light-weight Physically Based Renderer built in Rust.
+    official: true
