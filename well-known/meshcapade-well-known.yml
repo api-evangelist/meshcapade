@@ -1,12 +1,12 @@
 generated: '2026-07-20'
 method: probed
 host: https://meshcapade.com
-note: >-
-  Probed the standard /.well-known/ discovery surface plus /llms.txt on the
-  primary host. The site is fronted by a CDN/WAF that returns HTTP 403 to
-  automated clients for unknown paths, so no discovery documents were
-  retrievable. robots.txt is public (200). No well-known documents saved.
-documents:
+note: Probed the standard /.well-known/ discovery surface plus /llms.txt on the primary host. The site
+  is fronted by a CDN/WAF that returns HTTP 403 to automated clients for unknown paths, so no discovery
+  documents were retrievable. robots.txt is public (200). No well-known documents saved.
+hosts:
+- host: https://meshcapade.com
+  documents:
   - path: /.well-known/security.txt
     status: 403
   - path: /.well-known/openid-configuration
@@ -17,7 +17,8 @@ documents:
     status: 403
   - path: /.well-known/ai-plugin.json
     status: 403
-  - path: /llms.txt
-    status: 403
-  - path: /robots.txt
-    status: 200
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
