@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Meshcapade is a company surfaced as a portfolio company of hv-capital, matrix-partners and added to the API Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile is a lead awaiting the enrichment pipeline.
+Meshcapade builds digital humans - technology that turns images, video, motion capture, body measurements or text prompts into anatomically accurate, animation-ready 3D avatars. Its platform is built on the SMPL, SMPL-X and SUPR parametric body-model family that originated at the Max Planck Institute for Intelligent Systems in Tuebingen, Germany. Meshcapade offers a hosted avatar-creation platform at me.meshcapade.com and a REST API for programmatic avatar generation, plus open-source body-model libraries and integrations for Blender, Maya and Unreal Engine. Customers span fashion, robotics, gaming and animation, fitness, and scientific research.
 
-Backed by: hv-capital, matrix-partners — https://meshcapade.com
+**Areas:** Company · Ai Enterprise Software · Digital Humans · 3D Avatars · Body Modeling · SMPL · Computer Vision · Animation · Artificial Intelligence
+
+## Meshcapade on APIs.io
+
+Everything profiled for Meshcapade is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/meshcapade/](https://apis.io/providers/meshcapade/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Meshcapade API](https://apis.io/apis/meshcapade/meshcapade-api/) — REST API for programmatic creation of animation-ready 3D avatars from images, video, measurements and text, built on the SMPL body-model family.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Meshcapade Domain Security](https://apis.io/security/meshcapade/meshcapade-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://meshcapade.com)
+- [Documentation](https://meshcapade.com/docs/api/)
+- [API reference](https://meshcapade.com/docs/api/)
+- [Sign up](https://me.meshcapade.com)
+- [Support](http://meshcapade-25322263.hs-sites-eu1.com/en/meshcapade-help)
+- [Blog](https://medium.com/meshcapade/)
+- [Terms of service](https://me.meshcapade.com/terms-of-service)
+- [Privacy policy](https://meshcapade.com/privacy-policy)
+- [GitHub](https://github.com/Meshcapade)
+
+## API Evangelist rating
+
+**Kin Score 22.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/meshcapade/](https://apis.io/providers/meshcapade/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Meshcapade: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/meshcapade/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
